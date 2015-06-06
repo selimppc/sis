@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+
+Route::any('/email', 'WelcomeController@email_index');

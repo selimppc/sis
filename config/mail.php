@@ -15,7 +15,8 @@ return [
 	|
 	*/
 
-	'driver' => env('MAIL_DRIVER', 'smtp'),
+	#'driver' => env('MAIL_DRIVER', 'smtp'),
+	'driver' => 'mail',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +29,8 @@ return [
 	|
 	*/
 
-	'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+	#'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+	'host' => 'smtp.edutechsolutionsbd.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +43,8 @@ return [
 	|
 	*/
 
-	'port' => env('MAIL_PORT', 587),
+	#'port' => env('MAIL_PORT', 587),
+	'port' => 465,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +57,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'test@edutechsolutionsbd.com', 'name' => 'edutechsolutionsbd'],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,7 +70,8 @@ return [
 	|
 	*/
 
-	'encryption' => 'tls',
+	#'encryption' => 'tls',
+	'encryption' => 'ssl',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +84,8 @@ return [
 	|
 	*/
 
-	'username' => env('MAIL_USERNAME'),
+	#'username' => env('MAIL_USERNAME'),
+    'username' => 'test@edutechsolutionsbd.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +98,8 @@ return [
 	|
 	*/
 
-	'password' => env('MAIL_PASSWORD'),
+	#'password' => env('MAIL_PASSWORD'),
+    'password' => 'edutech@123',
 
 	/*
 	|--------------------------------------------------------------------------
