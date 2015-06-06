@@ -18,12 +18,7 @@
         </div>
 
         <?php
-            $body = 'Hello Sales,
-
-We are interested in learning more about the "xxxxx" dedicated (or vps if vps) server.  Do you have any in stock?  We would also request a /24 of ipv4 space routed to the server for our needs.  Can you help us with this?
-
-Regards,
-Johnson'
+            $body = 'We are interested in learning more about the  dedicated (or vps if vps) server.  Do you have any in stock?  We would also request a /24 of ipv4 space routed to the server for our needs.  Can you help us with this?'
         ?>
         <div class="form-group">
             {!! Form::label('body', "Body") !!}

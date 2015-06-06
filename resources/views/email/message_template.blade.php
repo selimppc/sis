@@ -1,13 +1,10 @@
-You received a message :
-
+<div style="color: #424251; font-size: 14px">
+    Hello Sales,
 <p>
-    Name: Hello
+    {{$body}}
 </p>
-
 <p>
-    Thank
+    Regards, <br><br>
+    <b style="font-size: 16px">Johnson</b>
 </p>
-
-<p>
-    Welcome
-</p>
+</div>

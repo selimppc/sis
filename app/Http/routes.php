@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+//Route::get('/', 'WelcomeController@index');
 
-Route::any('/email', 'WelcomeController@email_index');
+Route::any('/', 'WelcomeController@email_index');

@@ -54,11 +54,11 @@ class WelcomeController extends Controller {
                     $message->subject($data['subject']);
 
                     #$message->attach($pathToFile);
+                    Session::flash('key', 'Email Sent Successfully !');
                 });
             }catch(Exception $e){
-                print_r($e->getMessage());
+                Session::flash('key', $e->getMessage() );
             }
-            Session::flash('key', 'Email Sent Successfully !');
             return redirect()->back();
         }else{
             $data = "Send Email(s) ";

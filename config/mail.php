@@ -16,7 +16,7 @@ return [
 	*/
 
 	#'driver' => env('MAIL_DRIVER', 'smtp'),
-	'driver' => 'mail',
+	'driver' => 'smtp',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,7 +30,7 @@ return [
 	*/
 
 	#'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
-	'host' => 'smtp.edutechsolutionsbd.com',
+	'host' => 'smtp.gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
 	*/
 
 	#'username' => env('MAIL_USERNAME'),
-    'username' => 'test@edutechsolutionsbd.com',
+    'username' => 'hostingmanagers@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -99,7 +99,7 @@ return [
 	*/
 
 	#'password' => env('MAIL_PASSWORD'),
-    'password' => 'edutech@123',
+    'password' => 'sreza@2015',
 
 	/*
 	|--------------------------------------------------------------------------
